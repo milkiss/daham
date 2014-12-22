@@ -13,7 +13,20 @@
 
 App::before(function($request)
 {
-	//
+  $lang = App::getLocale();
+  $langname = "English";
+  $clang = "ko";
+  $clangname = "한국어";
+  if ($lang == "ko") {
+  	$langname = "한국어";
+  	$clang = "en";
+  	$clangname = "English";
+  }
+  
+  View::share("clang", $clang);
+  View::share("lang", $lang);
+  View::share("langname", $langname);
+  View::share("clangname", $clangname);
 });
 
 

@@ -17,6 +17,14 @@ dt {
     margin-top: 10px;
 }
 
+.white {
+    color: white;
+}
+
+.black {
+    color: black;
+}
+
 .home-button {
     padding: 0px;
 }

@@ -13,10 +13,10 @@ Class L18n{
     static function currentUrl($lang = "")
     {
         // if the desired language is found in the supported_locales variable
-        if( in_array($lang, Config::get('locales.supported_locales')) )
+        if( in_array($lang, Config::get('app.available_locales')) )
         {
             // if the first part of the URL is found in the supported_locales
-            if( in_array(Request::segment(1), Config::get('locales.supported_locales')) )
+            if( in_array(Request::segment(1), Config::get('app.available_locales')) )
             {
                 // remove the first two characters from the `path`; DELETE (en)
                 $cleanPath = substr(Request::path(), 2);
@@ -44,7 +44,7 @@ Class L18n{
         // if the desired language is not found in the supported_locales variable; (default to app.locale)
         else{
             // if the first part  of the URL is found in the supported_locales (the user is currently viewing the translated page)
-            if( in_array(Request::segment(1), Config::get('locales.supported_locales')) )
+            if( in_array(Request::segment(1), Config::get('app.available_locales')) )
             {
                 // remove the first three characters from `path`; DELETE (en/)
                 $cleanPath = substr(Request::path(), 3);

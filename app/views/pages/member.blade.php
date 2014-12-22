@@ -1,33 +1,33 @@
 @extends('layouts.default')
 @section('content')
 <div class="container">
-  <h3>{{ $data->name }}</h3>
+  <h3>{{ Lang::get($name.".name") }}</h3>
   <div class="col-md-9">
-    <h4>Educations and Qualifications</h4>
+    <h4>{{ Lang::get($name.".EQ.0") }}</h4>
     <ul>
-    @foreach ($data->EQ as $row)
+    @for ($i = 1; $i <= 3; $i++)
       <li>
-        <p>{{ $row->item }}</p>
+        <p>{{ Lang::get($name.".EQ.".$i) }}</p>
       </li>
-    @endforeach
+    @endfor
     </ul>
-    <h4>Experiences</h4>
+    <h4>{{ Lang::get($name.".Exp.0") }}</h4>
     <ul>
-    @foreach ($data->Exp as $row)
+    @for ($i = 1; $i <= 4; $i++)
       <li>
-        <p>{{ $row->item }}</p>
+        <p>{{ Lang::get($name.".Exp.".$i) }}</p>
       </li>
-    @endforeach
+    @endfor
     </ul>
-    <h4>Professionalism and Consulting for technologies, intellectual properties</h4>
+    <h4>{{ Lang::get($name.".Exp.0") }}</h4>
     <ul>
-    @foreach ($data->PC as $row)
+    @for ($i = 1; $i <= 5; $i++)
       <li>
-        <p>{{ $row->item }}</p>
+        <p>{{ Lang::get($name.".Prof.".$i) }}</p>
       </li>
-    @endforeach
+    @endfor
     </ul>
   </div>
-  <div class="col-md-3"><img src="http://dahampat.com/en/KimKyeounsoo.png"/></div>
+  <div class="col-md-3"><img src="/KimKyeounsoo.png"/></div>
 </div>
 @stop
