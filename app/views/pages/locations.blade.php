@@ -1,7 +1,7 @@
 @extends('layouts.default')
 @section('content')
 <div class="container">
-  <p>DaHamPatentLawFirm #402, Pyeonghwa B/D, 727-14 Yeoksam-dong, Gangnam-gu, SEOUL 135-921, KOREA</p>
+  <p>{{ Lang::get("location.address") }}, {{ Lang::get("location.tel") }}</p>
   <table cellpadding="0" cellspacing="0"> 
     <tbody>
       <tr> 

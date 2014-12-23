@@ -19,7 +19,7 @@
       </li>
     @endfor
     </ul>
-    <h4>{{ Lang::get($name.".Exp.0") }}</h4>
+    <h4>{{ Lang::get($name.".Prof.0") }}</h4>
     <ul>
     @for ($i = 1; $i <= 5; $i++)
       <li>
