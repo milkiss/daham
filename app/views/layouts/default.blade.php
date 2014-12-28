@@ -1,19 +1,19 @@
 <!doctype html>
 <html>
   <head>
-    @include('includes.head')
+     @include('includes.head')
   </head>
   <body>
 
-		  @include('includes.header')
+  @include('includes.header')
 
 
-			@yield('content')
+	@yield('content')
 
 
-	    <footer>
-	    	@include('includes.footer')
-	    </footer>
+	<footer>
+	  @include('includes.footer')
+	</footer>
 
   </body>
 </html>
