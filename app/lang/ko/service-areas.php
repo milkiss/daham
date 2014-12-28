@@ -23,7 +23,7 @@ return array(
   "Maintenance" => array(
       0 => "Maintenance of patents rights",
       1 => "Consulting for strategies with respect to patent pools (MPEGLA, VIA Licensing, etc.)",
-      2 => "Consulting for strategies with respect to securing Open sources(GPL) and patents rights",
+      2 => "Consulting for constructing systems managing and supporting job related inventions",
     ),
   "Fund" => array(
       0 => "Funds and commercializations for Patent technologies",
