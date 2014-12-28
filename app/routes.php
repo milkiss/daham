@@ -28,13 +28,15 @@ Route::group(array('prefix' => $locale), function()
 	});
 		
 	Route::get('/service-areas', 'ServiceAreasController@view');
+
+	Route::get('/professionalism', 'ProfController@view');
 	
 	Route::get('/locations', function()
 	{
 		return View::make('pages.locations');
 	});
 	
-	Route::get('/links', 'LinksController@view');
+	//Route::get('/links', 'LinksController@view');
 	
 	Route::get('/members/{name}', 'MembersController@view')
 	-> where('name', 'kyeounsoo');
