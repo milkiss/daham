@@ -1,33 +1,45 @@
 <?php
 
 return array(
-  "name" => "Service Areas",
-  "IPR" => array(
-      0 => "The Intellectual Property Rights such as Patents, Utilities, Trademarks, and Designs",
-      1 => "Agency for Filing, Registering and Maintaining IPRs",
-      2 => "Agency for confirming and invalidating patent claims",
-      3 => "Consulting for analysis and reaction of infringements",
-    ),
-  "Strategy" => array(
-      0 => "Strategies for IPRs",
-      1 => "Survey, browsing, and investigation of prior arts",
-      2 => "Issuing patent valuation statement",
-      3 => "Consulting for constructing customized patent portfolio and IPRs acquisition strategies",
-      4 => "Consulting for creating patents for standardizations",
-    ),
-  "Tech" => array(
-      0 => "Technology Transfer",
-      1 => "Valuation and evaluation of the rights for Patents",
-      2 => "Consulting the technology transfer in association with patents rights",
-    ),
-  "Maintenance" => array(
-      0 => "Maintenance of patents rights",
-      1 => "Consulting for strategies with respect to patent pools (MPEGLA, VIA Licensing, etc.)",
-      2 => "Consulting for constructing systems managing and supporting job related inventions",
-    ),
-  "Fund" => array(
-      0 => "Funds and commercializations for Patent technologies",
-      1 => "Consulting for financial aids programs for patent filing / commercialization of patent technology",
-      2 => "Consulting for Valuation, Certification and Licensing of technologies",
-    ),
+  "name" => "서비스 분야",
+  "body" => array(
+    "IPR" => array(
+        "title" => "특허, 실용신안, 상표, 디자인 등 지재권 업무",
+        "body" => array(
+          0 => "지재권 출원, 등록 대리 및 유지 관리",
+          1 => "특허 청구범위 감정, 분석 및 평가",
+          2 => "침해 분석 및 대응 컨설팅",
+        ),
+      ),
+    "Strategy" => array(
+        "title" => "특허 전략 제공 업무",
+        "body" => array(
+          0 => "선행기술 조사, 검색 및 분석",
+          1 => "특허 가치 평가",
+          2 => "커스터마이즈된 특허 포트폴리오 및 지재권 획득 전략 수립을 위한 컨설팅 제공",
+          3 => "표준특허 창출 컨설팅",
+        ),
+      ),
+    "Tech" => array(
+        "title" => "기술 이전 업무",
+        "body" => array(
+          0 => "특허권의 가치 평가",
+          1 => "특허권 관련 기술 이전 컨설팅  ",
+        ),
+      ),
+    "Maintenance" => array(
+        "title" => "특허권 유지 관리 업무",
+        "body" => array(
+          0 => "특허풀(MPEGLA, VIA Licensing 등)과 관련한 전략 컨설팅",
+          1 => "직무발명 시스템 구축 컨설팅",
+        ),
+      ),
+    "Fund" => array(
+        "title" => "특허기술 자금 및 사업화 지원",
+        "body" => array(
+          0 => "특허출원 자금지원 프로그램 및 특허기술 사업화 관련 컨설팅",
+          1 => "기술 가치평가, 인증(조달우수, 신제품 인증, 등) 및 라이센싱 관련 컨설팅",
+        ),
+      ),
+  ),
 );

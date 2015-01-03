@@ -1,12 +1,12 @@
 @extends('layouts.default')
 @section('content')
 <div class="container">
-  <h3>Service Areas</h3>
+  <h3>{{ Lang::get("service-areas.name") }}</h3>
   <dl> 
-  @foreach ($serviceAreas as $serviceArea)
+  @foreach (Lang::get("service-areas.body") as $serviceArea)
     <dt>{{ $serviceArea['title'] }}</dt>
-    @foreach ($serviceArea['children'] as $children)
-    <dd>{{ $children }}</dd>
+    @foreach ($serviceArea['body'] as $body)
+    <dd>{{ $body }}</dd>
     @endforeach
   @endforeach
   </dl>

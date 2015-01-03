@@ -1,33 +1,45 @@
 <?php
 
 return array(
-  "name" => "서비스 분야",
-  "IPR" => array(
-      0 => "특허, 실용신안, 상표, 디자인 등 지재권 업무",
-      1 => "지재권 출원, 등록 대리 및 유지 관리",
-      2 => "특허 청구범위 감정, 분석 및 평가",
-      3 => "침해 분석 및 대응 컨설팅",
-    ),
-  "Strategy" => array(
-      0 => "특허 전략 제공 업무",
-      1 => "선행기술 조사, 검색 및 분석",
-      2 => "특허 가치 평가",
-      3 => "커스터마이즈된 특허 포트폴리오 및 지재권 획득 전략 수립을 위한 컨설팅 제공",
-      4 => "표준특허 창출 컨설팅",
-    ),
-  "Tech" => array(
-      0 => "기술 이전 업무",
-      1 => "특허권의 가치 평가",
-      2 => "특허권 관련 기술 이전 컨설팅  ",
-    ),
-  "Maintenance" => array(
-      0 => "특허권 유지 관리 업무",
-      1 => "특허풀(MPEGLA, VIA Licensing 등)과 관련한 전략 컨설팅",
-      2 => "직무발명 시스템 구축 컨설팅",
-    ),
-  "Fund" => array(
-      0 => "특허기술 자금 및 사업화 지원",
-      1 => "특허출원 자금지원 프로그램 및 특허기술 사업화 관련 컨설팅",
-      2 => "기술 가치평가, 인증(조달우수, 신제품 인증, 등) 및 라이센싱 관련 컨설팅",
-    ),
+  "name" => "Service Areas",
+  "body" => array(
+    "IPR" => array(
+        "title" => "The Intellectual Property Rights such as Patents, Utilities, Trademarks, and Designs",
+        "body" => array(
+          0 => "Agency for Filing, Registering and Maintaining IPRs",
+          1 => "Agency for confirming and invalidating patent claims",
+          2 => "Consulting for analysis and reaction of infringements",
+        ),
+      ),
+    "Strategy" => array(
+        "title" => "Strategies for IPRs",
+        "body" => array(
+          0 => "Survey, browsing, and investigation of prior arts",
+          1 => "Issuing patent valuation statement",
+          2 => "Consulting for constructing customized patent portfolio and IPRs acquisition strategies",
+          3 => "Consulting for creating patents for standardizations",
+        ),
+      ),
+    "Tech" => array(
+        "title" => "Technology Transfer",
+        "body" => array(
+          0 => "Valuation and evaluation of the rights for Patents",
+          1 => "Consulting the technology transfer in association with patents rights",
+        ),
+      ),
+    "Maintenance" => array(
+        "title" => "Maintenance of patents rights",
+        "body" => array(
+          0 => "Consulting for strategies with respect to patent pools (MPEGLA, VIA Licensing, etc.)",
+          1 => "Consulting for constructing systems managing and supporting job related inventions",
+        ),
+      ),
+    "Fund" => array(
+        "title" => "Funds and commercializations for Patent technologies",
+        "body" => array(
+          0 => "Consulting for financial aids programs for patent filing / commercialization of patent technology",
+          1 => "Consulting for Valuation, Certification and Licensing of technologies",
+        ),
+      ),
+  ),
 );

@@ -22,8 +22,9 @@
         -->
         <li><a href="/{{ $lang }}/members/kyeounsoo">{{ Lang::get("menu.manpower") }}</a></li>
         <li><a href="/{{ $lang }}/service-areas">{{ Lang::get("menu.service-areas") }}</a></li>
+        <li><a href="/{{ $lang }}/professionalism">{{ Lang::get("menu.prof") }}</a></li>
         <li><a href="/{{ $lang }}/locations">{{ Lang::get("menu.locations") }}</a></li>
-        <li><a href="/{{ $lang }}/links">{{ Lang::get("menu.links") }}</a></li>
+        <!-- <li><a href="/{{ $lang }}/links">{{ Lang::get("menu.links") }}</a></li> -->
       </ul>
      <a class="alert-link black pull-right" href="{{ L18n::currentUrl($clang) }}">{{ $clangname }}</a>
     </div>
