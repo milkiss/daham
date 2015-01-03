@@ -20,6 +20,7 @@ return array(
           3 => "Research Engineer, Communication System / Transmission Technology / Access Network/Wireless Communication institute, Korea Telecom",
         ),
       ),
+    /*
     "Prof" => array(
         "title" => "Professionalism and Consulting for technologies, intellectual propertiest",
         "body" => array(
@@ -30,5 +31,6 @@ return array(
           4 => "Digital Video Recorder (OEMed using MJPEG(http://www.elbex.co.jp), based on MPEG-2(vivant, ILRYUNG Telesys Inc.)",
         ),
       ),
+    */
   ),
 );

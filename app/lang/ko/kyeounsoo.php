@@ -20,6 +20,7 @@ return array(
           3 => "KT 연구개발원 연구원(지능망/신호망교환기/MPEG-2 비디오 코덱/비동기식 VLSI 시스템 개발)",
         ),
       ),
+    /*
     "Prof" => array(
         "title" => "전문성",
         "body" => array(
@@ -30,5 +31,6 @@ return array(
           4 => "Digital Video Recorder (OEMed using MJPEG(http://www.elbex.co.jp), based on MPEG-2(vivant, ILRYUNG Telesys Inc.)",
         ),
       ),
+    */
   ),
 );
